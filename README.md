@@ -1,0 +1,1 @@
+# MediaTek_ApSoC_SDK_compile_env
