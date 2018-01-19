@@ -19,7 +19,7 @@ RUN dpkg --add-architecture i386 \
 	&& apt-get install -y vim \
 	gcc g++ binutils patch bzip2 flex bison make cpio xz-utils \
 	autoconf gettext texinfo unzip sharutils libncurses5-dev ncurses-term zlib1g-dev gawk liblzma-dev \
-	git-core \
+	git-core cmake \
 	&& rm -fr /var/lib/apt/lists/* 
 	
 EXPOSE 22  
